@@ -1,0 +1,367 @@
+,Attribute,Description,Meaning,Value,Type
+0,AGER_TYP,best-ager typology,unknown,-1,Ordinal
+5,ALTERSKATEGORIE_GROB,age classification through prename analysis ,unknown,"-1, 0",Ordinal
+11,ALTER_HH,main age within the household,unknown / no main age detectable,0,Ordinal
+33,ANREDE_KZ,gender,unknown,"-1, 0",Ordinal
+36,ANZ_HAUSHALTE_AKTIV,number of households in the building,numeric value (typically coded from 1-10),…,Ordinal
+37,ANZ_HH_TITEL,number of academic title holder in building,numeric value (typically coded from 1-10),…,Ordinal
+38,ANZ_PERSONEN,number of adult persons in the household,numeric value (typically coded from 1-3),…,Ordinal
+39,ANZ_TITEL,number of professional title holder in household ,numeric value (typically coded from 1-10),…,Ordinal
+40,BALLRAUM,distance to next urban centre ,unknown,-1,Ordinal
+51,CAMEO_DEUG_2015,CAMEO classification 2015 - Uppergroup,unknown,-1,Ordinal
+131,CJT_GESAMTTYP,customer journey typology,unknown,0,Ordinal
+138,D19_BANKEN_ANZ_12,transaction activity BANKS in the last 12 months,no transactions known,0,Ordinal
+145,D19_BANKEN_ANZ_24,transaction activity BANKS in the last 24 months,no transactions known,0,Ordinal
+161,D19_BANKEN_DATUM,actuality of the last transaction for the segment banks TOTAL,no transactions known,10,Ordinal
+195,D19_BANKEN_OFFLINE_DATUM,actuality of the last transaction for the segment banks OFFLINE,no transactions known,10,Ordinal
+205,D19_BANKEN_ONLINE_DATUM,actuality of the last transaction for the segment banks ONLINE,no transactions known,10,Ordinal
+305,D19_GESAMT_ANZ_12,transaction activity TOTAL POOL in the last 12 months ,no transactions known,0,Ordinal
+312,D19_GESAMT_ANZ_24,transaction activity TOTAL POOL in the last 24 months ,no transactions known,0,Ordinal
+328,D19_GESAMT_DATUM,actuality of the last transaction with the complete file TOTAL,no transactions known,10,Ordinal
+338,D19_GESAMT_OFFLINE_DATUM,actuality of the last transaction with the complete file OFFLINE,no transactions known,10,Ordinal
+348,D19_GESAMT_ONLINE_DATUM,actuality of the last transaction with the complete file ONLINE,no transactions known,10,Ordinal
+478,D19_TELKO_ANZ_12,transaction activity TELCO in the last 12 months,no transactions known,0,Ordinal
+485,D19_TELKO_ANZ_24,transaction activity TELCO in the last 24 months,no transactions known,0,Ordinal
+501,D19_TELKO_DATUM,actuality of the last transaction for the segment telecommunication TOTAL,no transactions known,10,Ordinal
+519,D19_TELKO_OFFLINE_DATUM,actuality of the last transaction for the segment telecommunication OFFLINE,no transactions known,10,Ordinal
+529,D19_TELKO_ONLINE_DATUM,actuality of the last transaction for the segment telecommunication ONLINE,no transactions known,10,Ordinal
+546,D19_VERSAND_ANZ_12,transaction activity MAIL-ORDER in the last 12 months,no transactions known,0,Ordinal
+553,D19_VERSAND_ANZ_24,transaction activity MAIL-ORDER in the last 24 months,no transactions known,0,Ordinal
+569,D19_VERSAND_DATUM,actuality of the last transaction for the segment mail-order TOTAL,no transactions known,10,Ordinal
+579,D19_VERSAND_OFFLINE_DATUM,actuality of the last transaction for the segment mail-order OFFLINE,no transactions known,10,Ordinal
+589,D19_VERSAND_ONLINE_DATUM,actuality of the last transaction for the segment mail-order ONLINE,no transactions known,10,Ordinal
+617,D19_VERSI_ANZ_12,transaction activity INSURANCE in the last 12 months,no transactions known,0,Ordinal
+624,D19_VERSI_ANZ_24,transaction activity INSURANCE in the last 24 months,no transactions known,0,Ordinal
+647,EWDICHTE,density of inhabitants per square kilometer,unknown,-1,Ordinal
+654,FINANZTYP,best descirbing financial type for the person,unknown,-1,Ordinal
+661,FINANZ_ANLEGER,financial typology: investor,unknown,-1,Ordinal
+667,FINANZ_HAUSBAUER,financial typology: main focus is the own house,unknown,-1,Ordinal
+673,FINANZ_MINIMALIST,financial typology: low financial interest,unknown,-1,Ordinal
+679,FINANZ_SPARER,financial typology: money saver,unknown,-1,Ordinal
+685,FINANZ_UNAUFFAELLIGER,financial typology: unremarkable,unknown,-1,Ordinal
+691,FINANZ_VORSORGER,financial typology: be prepared,unknown,-1,Ordinal
+697,GEBAEUDETYP,type of building (residential or commercial),unknown,"-1, 0",Ordinal
+744,HEALTH_TYP,health typology,unknown,-1,Ordinal
+749,HH_EINKOMMEN_SCORE,estimated household net income ,unknown,"-1, 0",Ordinal
+756,INNENSTADT,distance to the city centre,unknown,-1,Ordinal
+765,KBA05_ALTER1,share of car owners less than 31 years old,unknown,"-1, 9",Ordinal
+771,KBA05_ALTER2,share of car owners inbetween 31 and 45 years of age,unknown,"-1, 9",Ordinal
+777,KBA05_ALTER3,share of car owners inbetween 45 and 60 years of age,unknown,"-1, 9",Ordinal
+783,KBA05_ALTER4,share of cars owners elder than 61 years,unknown,"-1, 9",Ordinal
+790,KBA05_ANHANG,share of trailers in the microcell,unknown,"-1, 9",Ordinal
+795,KBA05_ANTG1,number of 1-2 family houses in the cell,unknown,-1,Ordinal
+801,KBA05_ANTG2,number of 3-5 family houses in the cell,unknown,-1,Ordinal
+807,KBA05_ANTG3,number of 6-10 family houses in the cell,unknown,-1,Ordinal
+812,KBA05_ANTG4,number of >10 family houses in the cell,unknown,-1,Ordinal
+821,KBA05_AUTOQUOT,share of cars per household,unknown,"-1, 9",Ordinal
+822,CAMEO_DEU_2015,most common building-type within the cell,unknown,"-1, 0",Ordinal
+828,KBA05_CCM1,share of cars with less than 1399ccm,unknown,"-1, 9",Ordinal
+834,KBA05_CCM2,share of cars with 1400ccm to 1799 ccm,unknown,"-1, 9",Ordinal
+840,KBA05_CCM3,share of cars with 1800ccm to 2499 ccm,unknown,"-1, 9",Ordinal
+846,KBA05_CCM4,share of cars with more than 2499ccm,unknown,"-1, 9",Ordinal
+852,KBA05_DIESEL,share of cars with Diesel-engine in the microcell,unknown,"-1, 9",Ordinal
+858,KBA05_FRAU,share of female car owners,unknown,"-1, 9",Ordinal
+864,KBA05_GBZ,number of buildings in the microcell,unknown,"-1, 0",Ordinal
+870,KBA05_HERST1,"share of top German manufacturer (Mercedes, BMW) ",unknown,"-1, 9",Ordinal
+877,KBA05_HERST2,share of Volkswagen-Cars (including Audi),unknown,"-1, 9",Ordinal
+884,KBA05_HERST3,share of Ford/Opel,unknown,"-1, 9",Ordinal
+891,KBA05_HERST4,"share of European manufacturer (e.g. Fiat, Peugeot, Rover,...)",unknown,"-1, 9",Ordinal
+898,KBA05_HERST5,"share of asian manufacturer (e.g. Toyota, Kia,...)",unknown,"-1, 9",Ordinal
+905,KBA05_HERSTTEMP,development of the most common car manufacturers in the neighbourhood,unknown,"-1, 9",Ordinal
+911,KBA05_KRSAQUOT,share of cars per household (reffered to county average),unknown,"-1, 9",Ordinal
+917,KBA05_KRSHERST1,share of Mercedes/BMW (reffered to the county average),unknown,"-1, 9",Ordinal
+923,KBA05_KRSHERST2,share of Volkswagen (reffered to the county average),unknown,"-1, 9",Ordinal
+929,KBA05_KRSHERST3,share of Ford/Opel (reffered to the county average),unknown,"-1, 9",Ordinal
+935,KBA05_KRSKLEIN,share of small cars (referred to the county average),unknown,"-1, 9",Ordinal
+939,KBA05_KRSOBER,share of upper class cars (referred to the county average),unknown,"-1, 9",Ordinal
+943,KBA05_KRSVAN,share of vans (referred to the county average),unknown,"-1, 9",Ordinal
+947,KBA05_KRSZUL,share of newbuilt cars (referred to the county average),unknown,"-1, 9",Ordinal
+951,KBA05_KW1,share of cars with less than 59 KW engine power,unknown,"-1, 9",Ordinal
+957,KBA05_KW2,share of cars with an engine power between 60 and 119 KW,unknown,"-1, 9",Ordinal
+963,KBA05_KW3,share of cars with an engine power of more than 119 KW,unknown,"-1, 9",Ordinal
+969,KBA05_MAXAH,most common age of car owners in the microcell,unknown,"-1, 9",Ordinal
+975,KBA05_MAXBJ,most common age of the cars in the microcell,unknown,"-1, 9",Ordinal
+980,KBA05_MAXHERST,most common car manufacturer in the microcell,unknown,"-1, 9",Ordinal
+986,KBA05_MAXSEG,most common car segment in the microcell,unknown,"-1, 9",Ordinal
+991,KBA05_MAXVORB,most common preowner structure in the microcell,unknown,"-1, 9",Ordinal
+995,KBA05_MOD1,share of upper class cars (in an AZ specific definition),unknown,"-1, 9",Ordinal
+1001,KBA05_MOD2,share of middle class cars (in an AZ specific definition),unknown,"-1, 9",Ordinal
+1007,KBA05_MOD3,share of Golf-class cars (in an AZ specific definition),unknown,"-1, 9",Ordinal
+1013,KBA05_MOD4,share of small cars (in an AZ specific definition),unknown,"-1, 9",Ordinal
+1020,KBA05_MOD8,share of vans (in an AZ specific definition),unknown,"-1, 9",Ordinal
+1025,KBA05_MODTEMP,development of the most common car segment in the neighbourhood,unknown,"-1, 9",Ordinal
+1031,KBA05_MOTOR,most common engine size in the microcell,unknown,"-1, 9",Ordinal
+1036,KBA05_MOTRAD,share of motorcycles per household,unknown,"-1, 9",Ordinal
+1041,KBA05_SEG1,share of very small cars (Ford Ka etc.) in the microcell,unknown,"-1, 9",Ordinal
+1046,KBA05_SEG10,"share of more specific cars (Vans, convertables, all-terrains, MUVs etc.)",unknown,"-1, 9",Ordinal
+1052,KBA05_SEG2,"share of small and very small cars (Ford Fiesta, Ford Ka etc.) in the microcell",unknown,"-1, 9",Ordinal
+1058,KBA05_SEG3,share of lowe midclass cars (Ford Focus etc.) in the microcell,unknown,"-1, 9",Ordinal
+1064,KBA05_SEG4,share of middle class cars (Ford Mondeo etc.) in the microcell,unknown,"-1, 9",Ordinal
+1070,KBA05_SEG5,"share of upper middle class cars and upper class cars (BMW5er, BMW7er etc.)",unknown,"-1, 9",Ordinal
+1076,KBA05_SEG6,share of upper class cars (BMW 7er etc.) in the microcell,unknown,"-1, 9",Ordinal
+1079,KBA05_SEG7,share of all-terrain vehicles and MUVs in the microcell,unknown,"-1, 9",Ordinal
+1084,KBA05_SEG8,share of roadster and convertables in the microcell,unknown,"-1, 9",Ordinal
+1089,KBA05_SEG9,share of vans in the microcell,unknown,"-1, 9",Ordinal
+1094,KBA05_VORB0,share of cars with no preowner,unknown,"-1, 9",Ordinal
+1100,KBA05_VORB1,share of cars with one or two preowner,unknown,"-1, 9",Ordinal
+1106,KBA05_VORB2,share of cars with more than two preowner,unknown,"-1, 9",Ordinal
+1113,KBA05_ZUL1,share of cars built before 1994,unknown,"-1, 9",Ordinal
+1119,KBA05_ZUL2,share of cars built between 1994 and 2000,unknown,"-1, 9",Ordinal
+1125,KBA05_ZUL3,share of cars built between 2001 and 2002,unknown,"-1, 9",Ordinal
+1132,KBA05_ZUL4,share of cars built from 2003 on,unknown,"-1, 9",Ordinal
+1139,KBA13_ALTERHALTER_30,share of car owners below 31 within the PLZ8,unknown,-1,Ordinal
+1146,KBA13_ALTERHALTER_45,share of car owners between 31 and 45 within the PLZ8,unknown,-1,Ordinal
+1153,KBA13_ALTERHALTER_60,share of car owners between 46 and 60 within the PLZ8,unknown,-1,Ordinal
+1160,KBA13_ALTERHALTER_61,share of car owners elder than 61 within the PLZ8,unknown,-1,Ordinal
+1168,KBA13_AUDI,share of AUDI within the PLZ8,unknown,-1,Ordinal
+1175,KBA13_AUTOQUOTE,share of cars per household within the PLZ8,unknown,-1,Ordinal
+1182,KBA13_BJ_1999,share of cars built between 1995 and 1999 within the PLZ8,unknown,-1,Ordinal
+1189,KBA13_BJ_2000,share of cars built between 2000 and 2003 within the PLZ8,unknown,-1,Ordinal
+1196,KBA13_BJ_2004,share of cars built before 2004 within the PLZ8,unknown,-1,Ordinal
+1203,KBA13_BJ_2006,share of cars built between 2005 and 2006 within the PLZ8,unknown,-1,Ordinal
+1210,KBA13_BJ_2008,share of cars built in 2008 within the PLZ8,unknown,-1,Ordinal
+1217,KBA13_BJ_2009,share of cars built in 2009 within the PLZ8,unknown,-1,Ordinal
+1224,KBA13_BMW,share of BMW within the PLZ8,unknown,-1,Ordinal
+1231,KBA13_CCM_1000,share of cars with less than 1000ccm within the PLZ8,unknown,-1,Ordinal
+1238,KBA13_CCM_1200,share of cars with 1000ccm to 1199ccm within the PLZ8,unknown,-1,Ordinal
+1245,KBA13_CCM_1400,share of cars with 1200ccm to 1399ccm within the PLZ8,unknown,-1,Ordinal
+1252,KBA13_CCM_0_1400,share of cars with less than 1400ccm within the PLZ8,unknown,-1,Ordinal
+1259,KBA13_CCM_1500,share of cars with 1400ccm to 1499ccm within the PLZ8,unknown,-1,Ordinal
+1273,KBA13_CCM_1600,share of cars with 1500ccm to 1599ccm within the PLZ8,unknown,-1,Ordinal
+1280,KBA13_CCM_1800,share of cars with 1600ccm to 1799ccm within the PLZ8,unknown,-1,Ordinal
+1287,KBA13_CCM_2000,share of cars with 1800ccm to 1999ccm within the PLZ8,unknown,-1,Ordinal
+1294,KBA13_CCM_2500,share of cars with 2000ccm to 2499ccm within the PLZ8,unknown,-1,Ordinal
+1301,KBA13_CCM_2501,share of cars with more than 2500ccm within the PLZ8,unknown,-1,Ordinal
+1308,KBA13_CCM_3000,share of cars with 2500ccm to 2999ccm within the PLZ8,unknown,-1,Ordinal
+1315,KBA13_CCM_3001,share of cars with more than 3000ccm within the PLZ8,unknown,-1,Ordinal
+1322,KBA13_FAB_ASIEN,share of other Asian Manufacturers within the PLZ8,unknown,-1,Ordinal
+1329,KBA13_FAB_SONSTIGE,share of other Manufacturers within the PLZ8,unknown,-1,Ordinal
+1336,KBA13_FIAT,share of FIAT within the PLZ8,unknown,-1,Ordinal
+1343,KBA13_FORD,share of FORD within the PLZ8,unknown,-1,Ordinal
+1350,KBA13_HALTER_20,share of car owners below 21 within the PLZ8,unknown,-1,Ordinal
+1357,KBA13_HALTER_25,share of car owners between 21 and 25 within the PLZ8,unknown,-1,Ordinal
+1364,KBA13_HALTER_30,share of car owners between 26 and 30 within the PLZ8,unknown,-1,Ordinal
+1371,KBA13_HALTER_35,share of car owners between 31 and 35 within the PLZ8,unknown,-1,Ordinal
+1378,KBA13_HALTER_40,share of car owners between 36 and 40 within the PLZ8,unknown,-1,Ordinal
+1385,KBA13_HALTER_45,share of car owners between 41 and 45 within the PLZ8,unknown,-1,Ordinal
+1392,KBA13_HALTER_50,share of car owners between 46 and 50 within the PLZ8,unknown,-1,Ordinal
+1399,KBA13_HALTER_55,share of car owners between 51 and 55 within the PLZ8,unknown,-1,Ordinal
+1406,KBA13_HALTER_60,share of car owners between 56 and 60 within the PLZ8,unknown,-1,Ordinal
+1413,KBA13_HALTER_65,share of car owners between 61 and 65 within the PLZ8,unknown,-1,Ordinal
+1420,KBA13_HALTER_66,share of car owners over 66 within the PLZ8,unknown,-1,Ordinal
+1427,KBA13_HERST_ASIEN,share of Asian Manufacturers within the PLZ8,unknown,-1,Ordinal
+1434,KBA13_HERST_AUDI_VW,share of Volkswagen & Audi within the PLZ8,unknown,-1,Ordinal
+1441,KBA13_HERST_BMW_BENZ,share of BMW & Mercedes Benz within the PLZ8,unknown,-1,Ordinal
+1448,KBA13_HERST_EUROPA,share of European cars within the PLZ8,unknown,-1,Ordinal
+1455,KBA13_HERST_FORD_OPEL,share of Ford & Opel/Vauxhall within the PLZ8,unknown,-1,Ordinal
+1462,KBA13_HERST_SONST,share of other cars within the PLZ8,unknown,-1,Ordinal
+1469,KBA13_KMH_110,share of cars with max speed 110 km/h within the PLZ8,unknown,-1,Ordinal
+1476,KBA13_KMH_140,share of cars with max speed between 110 km/h and 140km/h within the PLZ8,unknown,-1,Ordinal
+1483,KBA13_KMH_180,share of cars with max speed between 110 km/h and 180km/h within the PLZ8,unknown,-1,Ordinal
+1490,KBA13_KMH_0_140,share of cars with max speed 140 km/h within the PLZ8,unknown,-1,Ordinal
+1497,KBA13_KMH_140_210,share of cars with max speed between 140 and 210 km/h within the PLZ8,unknown,-1,Ordinal
+1504,KBA13_KMH_211,share of cars with a greater max speed than 210 km/h within the PLZ8,unknown,-1,Ordinal
+1511,KBA13_KMH_250,share of cars with max speed between 210 and 250 km/h within the PLZ8,unknown,-1,Ordinal
+1518,KBA13_KMH_251,share of cars with a greater max speed than 250 km/h within the PLZ8,unknown,-1,Ordinal
+1525,KBA13_KRSAQUOT,share of cars per household (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1532,KBA13_KRSHERST_AUDI_VW,share of Volkswagen (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1539,KBA13_KRSHERST_BMW_BENZ,share of BMW/Mercedes Benz (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1546,KBA13_KRSHERST_FORD_OPEL,share of FORD/Opel (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1553,KBA13_KRSSEG_KLEIN,share of small cars (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1558,KBA13_KRSSEG_OBER,share of upper class cars (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1563,KBA13_KRSSEG_VAN,share of vans (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1568,KBA13_KRSZUL_NEU,share of newbuilt cars (referred to the county average) - PLZ8,unknown,-1,Ordinal
+1573,KBA13_KW_30,share of cars up to 30 KW engine power - PLZ8,unknown,-1,Ordinal
+1580,KBA13_KW_40,share of cars with an engine power between 31 and 40 KW - PLZ8,unknown,-1,Ordinal
+1587,KBA13_KW_50,share of cars with an engine power between 41 and 50 KW - PLZ8,unknown,-1,Ordinal
+1594,KBA13_KW_60,share of cars with an engine power between 51 and 60 KW - PLZ8,unknown,-1,Ordinal
+1601,KBA13_KW_0_60,share of cars up to 60 KW engine power - PLZ8,unknown,-1,Ordinal
+1608,KBA13_KW_70,share of cars with an engine power between 61 and 70 KW - PLZ8,unknown,-1,Ordinal
+1615,KBA13_KW_61_120,share of cars with an engine power between 61 and 120 KW - PLZ8,unknown,-1,Ordinal
+1622,KBA13_KW_80,share of cars with an engine power between 71 and 80 KW - PLZ8,unknown,-1,Ordinal
+1629,KBA13_KW_90,share of cars with an engine power between 81 and 90 KW - PLZ8,unknown,-1,Ordinal
+1636,KBA13_KW_110,share of cars with an engine power between 91 and 110 KW - PLZ8,unknown,-1,Ordinal
+1643,KBA13_KW_120,share of cars with an engine power between 111 and 120 KW - PLZ8,unknown,-1,Ordinal
+1650,KBA13_KW_121,share of cars with an engine power more than 120 KW - PLZ8,unknown,-1,Ordinal
+1657,KBA13_MAZDA,share of MAZDA within the PLZ8,unknown,-1,Ordinal
+1664,KBA13_MERCEDES,share of MERCEDES within the PLZ8,unknown,-1,Ordinal
+1671,KBA13_MOTOR,most common motor size within the PLZ8,unknown,-1,Ordinal
+1677,KBA13_NISSAN,share of NISSAN within the PLZ8,unknown,-1,Ordinal
+1684,KBA13_OPEL,share of OPEL within the PLZ8,unknown,-1,Ordinal
+1691,KBA13_PEUGEOT,share of PEUGEOT within the PLZ8,unknown,-1,Ordinal
+1698,KBA13_RENAULT,share of RENAULT within the PLZ8,unknown,-1,Ordinal
+1705,KBA13_SEG_GELAENDEWAGEN,share of allterrain within the PLZ8,unknown,-1,Ordinal
+1712,KBA13_SEG_GROSSRAUMVANS,share of big sized vans within the PLZ8,unknown,-1,Ordinal
+1719,KBA13_SEG_KLEINST,share of very small cars (Ford Ka etc.) in the PLZ8,unknown,-1,Ordinal
+1726,KBA13_SEG_KLEINWAGEN,"share of small and very small cars (Ford Fiesta, Ford Ka etc.) in the PLZ8",unknown,-1,Ordinal
+1733,KBA13_SEG_KOMPAKTKLASSE,share of lowe midclass cars (Ford Focus etc.) in the PLZ8,unknown,-1,Ordinal
+1740,KBA13_SEG_MINIVANS,share of minivans within the PLZ8,unknown,-1,Ordinal
+1747,KBA13_SEG_MINIWAGEN,share of minicars within the PLZ8,unknown,-1,Ordinal
+1754,KBA13_SEG_MITTELKLASSE,share of middle class cars (Ford Mondeo etc.) in the PLZ8,unknown,-1,Ordinal
+1761,KBA13_SEG_OBEREMITTELKLASSE,"share of upper middle class cars and upper class cars (BMW5er, BMW7er etc.)",unknown,-1,Ordinal
+1768,KBA13_SEG_OBERKLASSE,share of upper class cars (BMW 7er etc.) in the PLZ8,unknown,-1,Ordinal
+1775,KBA13_SEG_SONSTIGE,share of other cars within the PLZ8,unknown,-1,Ordinal
+1782,KBA13_SEG_SPORTWAGEN,share of sportscars within the PLZ8,unknown,-1,Ordinal
+1789,KBA13_SEG_UTILITIES,share of MUVs/SUVs within the PLZ8,unknown,-1,Ordinal
+1796,KBA13_SEG_VAN,share of vans within the PLZ8,unknown,-1,Ordinal
+1803,KBA13_SEG_WOHNMOBILE,share of roadmobiles within the PLZ8,unknown,-1,Ordinal
+1810,KBA13_SITZE_4,number of cars with less than 5 seats in the PLZ8,unknown,-1,Ordinal
+1817,KBA13_SITZE_5,number of cars with 5 seats in the PLZ8,unknown,-1,Ordinal
+1824,KBA13_SITZE_6,number of cars with more than 5 seats in the PLZ8,unknown,-1,Ordinal
+1831,KBA13_TOYOTA,share of TOYOTA within the PLZ8,unknown,-1,Ordinal
+1838,KBA13_VORB_0,share of cars with no preowner - PLZ8,unknown,-1,Ordinal
+1845,KBA13_VORB_1,share of cars with 1 preowner - PLZ8,unknown,-1,Ordinal
+1852,KBA13_VORB_1_2,share of cars with 1 or 2 preowner - PLZ8,unknown,-1,Ordinal
+1859,KBA13_VORB_2,share of cars with 2 preowner - PLZ8,unknown,-1,Ordinal
+1866,KBA13_VORB_3,share of cars with 3 or more preowner - PLZ8,unknown,-1,Ordinal
+1873,KBA13_VW,share of VOLKSWAGEN within the PLZ8,unknown,-1,Ordinal
+1880,KKK,purchasing power,unknown,"-1, 0",Ordinal
+1993,NATIONALITAET_KZ,nationaltity (scored by prename analysis),unknown,"-1, 0",Ordinal
+2003,ORTSGR_KLS9,size of the community,unknown,-1,Ordinal
+2013,OST_WEST_KZ,flag indicating the former GDR/FRG,unknown,-1,Ordinal
+2016,PLZ8_ANTG1,number of 1-2 family houses in the PLZ8,unknown,-1,Ordinal
+2022,PLZ8_ANTG2,number of 3-5 family houses in the PLZ8,unknown,-1,Ordinal
+2028,PLZ8_ANTG3,number of 6-10 family houses in the PLZ8,unknown,-1,Ordinal
+2033,PLZ8_ANTG4,number of >10 family houses in the PLZ8,unknown,-1,Ordinal
+2042,PLZ8_GBZ,number of buildings within the PLZ8,unknown,-1,Ordinal
+2048,PLZ8_HHZ,number of households within the PLZ8,unknown,-1,Ordinal
+2054,PRAEGENDE_JUGENDJAHRE,dominating movement in the person's youth (avantgarde or mainstream),unknown,"-1, 0",Ordinal
+2070,REGIOTYP,neighbourhood ,unknown,"-1, 0",Ordinal
+2083,RELAT_AB,share of unemployed in relation to the county the community belongs to,unknown,"-1, 9",Ordinal
+2084,RETOURTYP_BK_S,return type,unknown,0,Ordinal
+2090,SEMIO_DOM,affinity indicating in what way the person is dominant minded,unknown,"-1, 9",Ordinal
+2098,SEMIO_ERL,affinity indicating in what way the person is eventful orientated,unknown,"-1, 9",Ordinal
+2106,SEMIO_FAM,affinity indicating in what way the person is familiar minded,unknown,"-1, 9",Ordinal
+2114,SEMIO_KAEM,affinity indicating in what way the person is of a fightfull attitude,unknown,"-1, 9",Ordinal
+2122,SEMIO_KRIT,affinity indicating in what way the person is critical minded,unknown,"-1, 9",Ordinal
+2130,SEMIO_KULT,affinity indicating in what way the person is cultural minded,unknown,"-1, 9",Ordinal
+2138,SEMIO_LUST,affinity indicating in what way the person is sensual minded,unknown,"-1, 9",Ordinal
+2146,SEMIO_MAT,affinity indicating in what way the person is material minded,unknown,"-1, 9",Ordinal
+2154,SEMIO_PFLICHT,affinity indicating in what way the person is dutyfull traditional minded,unknown,"-1, 9",Ordinal
+2162,SEMIO_RAT,affinity indicating in what way the person is of a rational mind,unknown,"-1, 9",Ordinal
+2170,SEMIO_REL,affinity indicating in what way the person is religious,unknown,"-1, 9",Ordinal
+2178,SEMIO_SOZ,affinity indicating in what way the person is social minded,unknown,"-1, 9",Ordinal
+2186,SEMIO_TRADV,affinity indicating in what way the person is traditional minded,unknown,"-1, 9",Ordinal
+2194,SEMIO_VERT,affinity indicating in what way the person is dreamily,unknown,"-1, 9",Ordinal
+2202,SHOPPER_TYP,shopping typology,unknown,-1,Ordinal
+2210,TITEL_KZ,flag whether this person holds an academic title,unknown,"-1, 0",Ordinal
+2216,VERS_TYP,insurance typology ,unknown,-1,Ordinal
+2219,WOHNDAUER_2008,length of residence,unknown,"-1, 0",Ordinal
+2229,WOHNLAGE,residential-area ,unknown,-1,Ordinal
+2244,W_KEIT_KIND_HH,likelihood of a child present in this household,unknown,"-1, 0",Ordinal
+2251,ZABEOTYP,typification of energy consumers,unknown,"-1, 9",Ordinal
+206,D19_BANKEN_ONLINE_QUOTE_12,amount of online transactions within all transactions in the segment bank ,,,Ordinal
+349,D19_GESAMT_ONLINE_QUOTE_12,amount of online transactions within all transactions in the complete file ,,,Ordinal
+590,D19_VERSAND_ONLINE_QUOTE_12,amount of online transactions within all transactions in the segment mail-order ,,,Ordinal
+706,GEBAEUDETYP_RASTER,industrial areas,,,Ordinal
+711,GEBURTSJAHR,year of birth,,,Ordinal
+712,GFK_URLAUBERTYP,vacation habits,,,Ordinal
+732,GREEN_AVANTGARDE,Green avantgarde,,,Ordinal
+1167,KBA13_ANZAHL_PKW,number of cars in the PLZ8,,,Ordinal
+1885,KONSUMNAEHE,distance from a building to PoS (Point of Sale),,,Ordinal
+1892,LP_FAMILIE_FEIN,familytyp fine,,,Ordinal
+1903,LP_FAMILIE_GROB,familytyp rough,,,Ordinal
+1914,LP_LEBENSPHASE_FEIN,lifestage fine ,,,Ordinal
+1954,LP_LEBENSPHASE_GROB,lifestage rough,,,Ordinal
+1966,LP_STATUS_FEIN,social status fine,,,Ordinal
+1976,LP_STATUS_GROB,social status rough,,,Ordinal
+1986,MIN_GEBAEUDEJAHR,year the building was first mentioned in our database,,,Ordinal
+1987,MOBI_REGIO,moving patterns,,,Ordinal
+1997,ONLINE_AFFINITAET,online affinity,,,Ordinal
+2037,PLZ8_BAUMAX,most common building-type within the PLZ8,,,Ordinal
+0,AKT_DAT_KL,,,,Ordinal
+1,ALTERSKATEGORIE_FEIN,,,,Ordinal
+2,ALTER_KIND1,,,,Ordinal
+3,ALTER_KIND2,,,,Ordinal
+4,ALTER_KIND3,,,,Ordinal
+5,ALTER_KIND4,,,,Ordinal
+6,ANZ_KINDER,,,,Ordinal
+7,ANZ_STATISTISCHE_HAUSHALTE,,,,Ordinal
+8,ARBEIT,,,,Ordinal
+9,CAMEO_INTL_2015,,,,Ordinal
+10,CJT_KATALOGNUTZER,,,,Ordinal
+11,CJT_TYP_1,,,,Ordinal
+12,CJT_TYP_2,,,,Ordinal
+13,CJT_TYP_3,,,,Ordinal
+14,CJT_TYP_4,,,,Ordinal
+15,CJT_TYP_5,,,,Ordinal
+16,CJT_TYP_6,,,,Ordinal
+17,D19_BANKEN_DIREKT,,,,Ordinal
+18,D19_BANKEN_GROSS,,,,Ordinal
+19,D19_BANKEN_LOKAL,,,,Ordinal
+20,D19_BANKEN_REST,,,,Ordinal
+21,D19_BEKLEIDUNG_GEH,,,,Ordinal
+22,D19_BEKLEIDUNG_REST,,,,Ordinal
+23,D19_BILDUNG,,,,Ordinal
+24,D19_BIO_OEKO,,,,Ordinal
+25,D19_BUCH_CD,,,,Ordinal
+26,D19_DIGIT_SERV,,,,Ordinal
+27,D19_DROGERIEARTIKEL,,,,Ordinal
+28,D19_ENERGIE,,,,Ordinal
+29,D19_FREIZEIT,,,,Ordinal
+30,D19_GARTEN,,,,Ordinal
+31,D19_HANDWERK,,,,Ordinal
+32,D19_HAUS_DEKO,,,,Ordinal
+33,D19_KINDERARTIKEL,,,,Ordinal
+34,D19_KONSUMTYP,,,,Ordinal
+35,D19_KONSUMTYP_MAX,,,,Ordinal
+36,D19_KOSMETIK,,,,Ordinal
+37,D19_LEBENSMITTEL,,,,Ordinal
+38,D19_LETZTER_KAUF_BRANCHE,,,,Ordinal
+39,D19_LOTTO,,,,Ordinal
+40,D19_NAHRUNGSERGAENZUNG,,,,Ordinal
+41,D19_RATGEBER,,,,Ordinal
+42,D19_REISEN,,,,Ordinal
+43,D19_SAMMELARTIKEL,,,,Ordinal
+44,D19_SCHUHE,,,,Ordinal
+45,D19_SONSTIGE,,,,Ordinal
+46,D19_SOZIALES,,,,Ordinal
+47,D19_TECHNIK,,,,Ordinal
+48,D19_TELKO_MOBILE,,,,Ordinal
+49,D19_TELKO_ONLINE_QUOTE_12,,,,Ordinal
+50,D19_TELKO_REST,,,,Ordinal
+51,D19_TIERARTIKEL,,,,Ordinal
+52,D19_VERSAND_REST,,,,Ordinal
+53,D19_VERSICHERUNGEN,,,,Ordinal
+54,D19_VERSI_DATUM,,,,Ordinal
+55,D19_VERSI_OFFLINE_DATUM,,,,Ordinal
+56,D19_VERSI_ONLINE_DATUM,,,,Ordinal
+57,D19_VERSI_ONLINE_QUOTE_12,,,,Ordinal
+58,D19_VOLLSORTIMENT,,,,Ordinal
+59,D19_WEIN_FEINKOST,,,,Ordinal
+60,DSL_FLAG,,,,Ordinal
+61,EINGEFUEGT_AM,,,,Ordinal
+62,EINGEZOGENAM_HH_JAHR,,,,Ordinal
+63,EXTSEL992,,,,Ordinal
+64,FIRMENDICHTE,,,,Ordinal
+65,GEMEINDETYP,,,,Ordinal
+66,HH_DELTA_FLAG,,,,Ordinal
+67,KBA05_BAUMAX,,,,Ordinal
+68,KBA13_ANTG1,,,,Ordinal
+69,KBA13_ANTG2,,,,Ordinal
+70,KBA13_ANTG3,,,,Ordinal
+71,KBA13_ANTG4,,,,Ordinal
+72,KBA13_BAUMAX,,,,Ordinal
+73,KBA13_CCM_1401_2500,,,,Ordinal
+74,KBA13_GBZ,,,,Ordinal
+75,KBA13_HHZ,,,,Ordinal
+76,KBA13_KMH_210,,,,Ordinal
+77,KK_KUNDENTYP,,,,Ordinal
+78,KOMBIALTER,,,,Ordinal
+79,KONSUMZELLE,,,,Ordinal
+80,LNR,,,,Ordinal
+81,MOBI_RASTER,,,,Ordinal
+82,RT_KEIN_ANREIZ,,,,Ordinal
+83,RT_SCHNAEPPCHEN,,,,Ordinal
+84,RT_UEBERGROESSE,,,,Ordinal
+85,SOHO_KZ,,,,Ordinal
+86,STRUKTURTYP,,,,Ordinal
+87,UMFELD_ALT,,,,Ordinal
+88,UMFELD_JUNG,,,,Ordinal
+89,UNGLEICHENN_FLAG,,,,Ordinal
+90,VERDICHTUNGSRAUM,,,,Ordinal
+91,VHA,,,,Ordinal
+92,VHN,,,,Ordinal
+93,VK_DHT4A,,,,Ordinal
+94,VK_DISTANZ,,,,Ordinal
+95,VK_ZG11,,,,Ordinal
