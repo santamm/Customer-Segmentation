@@ -21,7 +21,50 @@ The following additional libraries have been used:
 * time
 * progressbar
 * plot_learning_curve
-* xgboost (see installation notes)
+* xgboost (see installation notes below)
+
+In order to install XGBoost on Mac, please follow the steps below:
+# This is from https://machinelearningmastery.com/install-xgboost-python-macos/
+# except I didn't install gcc using MacPorts but brew. Also assumed python 3.6
+# already installed
+
+
+# Open a terminal and install latest gcc (gcc-8) in your home dir
+brew install gcc
+
+# Add the following lines to .bash-profile in the home directory
+alias gcc='gcc-8'
+alias cc='gcc-8'
+alias g++='g++-8'
+alias c++='c++-8'
+export CC='gcc-8'
+export CXX='g++-8'
+
+# Install xgboost
+
+git clone --recursive https://github.com/dmlc/xgboost
+
+cd xgboost/
+
+cp make/config.mk ./config.mk
+
+make -j8
+
+# Final install xgboost into python
+
+cd python-package
+
+sudo python setup.py install
+
+# And that should be it! You can verify if everything works with this code
+$ python
+Python 3.6.6 |Anaconda custom (64-bit)| (default, Jun 28 2018, 11:07:29)
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import xgboost
+>>> print("xgboost", xgboost.__version__)
+xgboost 0.81
+>>>
 
 ## Project Analysis<a name="motivation"></a>
 This project shows that cutting-edge algorithms typically used in Data Science competitions can be extended to handle real life problems, like predicting if a lead can be converted with over 80% accuracy.
