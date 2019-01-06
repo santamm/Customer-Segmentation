@@ -24,6 +24,7 @@ The following additional libraries have been used:
 * xgboost (see installation notes below)
 
 In order to install XGBoost on Mac, please follow the steps below:
+```
 # This is from https://machinelearningmastery.com/install-xgboost-python-macos/
 # except I didn't install gcc using MacPorts but brew. Also assumed python 3.6
 # already installed
@@ -65,7 +66,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print("xgboost", xgboost.__version__)
 xgboost 0.81
 >>>
-
+```
 ## Project Analysis<a name="motivation"></a>
 This project shows that cutting-edge algorithms typically used in Data Science competitions can be extended to handle real life problems, like predicting if a lead can be converted with over 80% accuracy.
 The data for this project has been provided to Udacity by Bertelsmann Arvato Analytics, and represents a real-life data science task. It includes demographics for customers of a mail-order sales company in Germany, a dataset of general population demographics, a mailout campaign with response and a final test dataset to make predictions on a Kaggle competition.
