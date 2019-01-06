@@ -69,15 +69,15 @@ xgboost 0.81
 >>>
 ```
 ## Project Analysis<a name="motivation"></a>
-This project shows that cutting-edge algorithms typically used in Data Science competitions can be extended to handle real life problems, like predicting if a lead can be converted with over 80% accuracy.
+Cutting-edge algorithms typically used in Data Science competitions can be extended to handle real life problems. In this project , we used unsupervised learning techniques to describe the relationship between the demographics of the company’s existing customers and the general population of Germany.
+
+This allowed to describe which parts of the general population are more likely to be part of the mail-order company’s main customer base, and which parts of the general population are less so (Customer Segmemtation).
+
+We then developed a supervised learning model to predict which individuals (leads) are most likely to convert into customers using a marketing campaign dataset. Tree-based and boosting algorithms usually perform very well on tabular data, and are widely employed across data science competitions. After comparing learning curves from four candidate algorithms using stratified kfold cross-validation, we have chosen XGBoost and proceeded to tune its parameter following a step-by-step strategy rather than applying a wide GridSearch. This allowed us to tune XGBoost in around 4hrs on a MacBook.
+
+The final optimized model was run against a test dataset and gave a final score of 0.80467, thereby showing that the model can predict if a lead can be converted into a customer with over 80% accuracy.The best score in the Leaderboard is 0.80819.
 
 The data for this project has been provided to Udacity by Bertelsmann Arvato Analytics, and represents a real-life data science task. It includes demographics for customers of a mail-order sales company in Germany, a dataset of general population demographics, a mailout campaign with response and a final test dataset to make predictions on a Kaggle competition.
-
-We used unsupervised learning techniques to describe the relationship between the demographics of the company's existing customers and the general population of Germany . This allowed to describe which parts of the general population are more likely to be part of the mail-order company's main customer base, and which parts of the general population are less so (Customer Segmemtation).
-
-We then developed a supervised learning model to predict which individuals are most likely to convert into customers using a marketing campaign dataset. Tree-based and boosting algorithms usually perform very well on tabular data, and are widely employed across data science competitions. After comparing learning curves from four candidate algorithms using stratified kfold cross-validation, we have chosen XGBoost and proceeded to tune its parameter following a step-by-step strategy rather than applying a wide GridSearch. This allowed us to tune XGBoost in around 4hrs on a MacBook.
-
-The final optimized model was run against a test dataset and gave a final score of 0.80467. The best score in the Leaderboard is 0.80819.
 
 ## Metric<a name="metric"></a>
  The metric used in the model is ROC (Receiver Operating Characteristic Curve) AUC ("Area under the ROC Curve"). AUC provides an aggregate measure of performance across all possible classification thresholds. One way of interpreting AUC is as the probability that the model ranks a random positive example higher than a random negative example.
